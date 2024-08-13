@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #0f172a;
+}
+.bg-container{
+    height: 550px;
+    width: 400px;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 40px;
+}
+.grocery-list-heading{
+    color: #cbd5e1;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.grocery-list-container{
+    min-height: 300;
+    width: 100%;
+    background-color: #cbd5e1;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-bottom: 20px;
+}
+li{
+    font-weight: 600;
+}
+.home-delivery-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.home-delivery-checkbox{
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
+}
+.home-delivery-text{
+    color: #cbd5e1;
+    font-size: 20px;
+}
+.payment-button{
+    background-color: #1d4ed8;
+    color: #cbd5e1;
+    align-self: flex-start;
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.payment-button:hover{
+    background-color: #1557e5;
+}
